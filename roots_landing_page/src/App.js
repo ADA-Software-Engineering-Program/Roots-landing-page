@@ -1,12 +1,17 @@
 
 import './App.css';
+import Aboutus from './components/Aboutus';
+import Accessibility from './components/Accessibility';
+import Lecturers from './components/Lecturers';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       
-      </header>
+     <Navbar></Navbar>
+     <Aboutus></Aboutus>
+     <Lecturers></Lecturers>
+     <Accessibility></Accessibility>
     </div>
   );
 }
