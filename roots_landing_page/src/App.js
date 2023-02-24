@@ -1,9 +1,9 @@
 import './App.css';
-import Community from './components/Community.js';
-import Testimonial from './components/Testimonials.js';
-import Newsletter from './components/Newsletter.js';
-import Banner from './components/Banner.js';
-import Footer from './components/Footer.js'
+import Community from './components/Community';
+import Testimonial from './components/Testimonials';
+import Newsletter from './components/Newsletter';
+import Banner from './components/Banner';
+import Footer from './components/Footer'
 
 function App() {
   return (
