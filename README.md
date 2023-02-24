@@ -1,4 +1,4 @@
-# Roots
+# Roots (Landing page)
 Roots is an online language learning platform that provides high-quality courses in Igbo language.
 The platform will offer video lessons, interactive exercises and community features to aid learners of all levels improve their language skills.
 
@@ -29,6 +29,12 @@ The community features will be moderated to ensure a safe and respectful environ
 ## Technologies used
 - React
 - BootStrap
+
+## Screenshots
+![](/src/images/RootsImg.PNG)
+![](/src/images/RootsImg0.PNG)
+![](/src/images/RootsImg1.PNG)
+![](/src/images/RootsImg2.PNG)
 
 ## Links 
 - [Wireframe](https://www.figma.com/file/qpg55OACx3sX8gnn5dSZgk/Roots-Final-Designs?node-id=0%3A1&t=vtYKJoDRWu4PZvuK-0)
