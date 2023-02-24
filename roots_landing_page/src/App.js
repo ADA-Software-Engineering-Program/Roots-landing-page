@@ -4,15 +4,23 @@ import Testimonial from './components/Testimonials';
 import Newsletter from './components/Newsletter';
 import Banner from './components/Banner';
 import Footer from './components/Footer'
-
+import Aboutus from './components/Aboutus';
+import Accessibility from './components/Accessibility';
+import Lecturers from './components/Lecturers';
+import Navbar from './components/Navbar';
+ 
 function App() {
   return (
     <div className="container-fluid">
-      <Community/>
-      <Testimonial/>
-      <Newsletter/>
-      <Banner/>
-      <Footer/>
+     <Navbar></Navbar>
+     <Aboutus></Aboutus>
+     <Lecturers></Lecturers>
+     <Accessibility></Accessibility>
+     <Community/>
+     <Testimonial/>
+     <Newsletter/>
+     <Banner/>
+    <Footer/>
     </div>
   );
 }

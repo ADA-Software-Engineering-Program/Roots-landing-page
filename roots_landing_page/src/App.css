@@ -30,8 +30,12 @@
   text-align: justify;
 }
 
+h3.testimonials_text{
+  text-align: center;
+}
+
 .fa-quote-left, .fa-quote-right{
-  color: #50505080 !important;
+  color: #505050 !important;
   font-size: 30px !important;
 }
 

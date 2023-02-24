@@ -4,7 +4,7 @@ function Testimonials() {
     return (
         <div className="row">
             <div className="row p-4 text-center">
-                <h3>Testimonials</h3>
+                <h3 className="testimonials_text">Testimonials</h3>
                 <p className="header_text">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis expedita enim similique in placeat amet non
                 </p>
