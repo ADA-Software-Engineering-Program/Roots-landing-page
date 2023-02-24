@@ -2,37 +2,88 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#community{
+  height: 70vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.community_text{
+  text-align: justify;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.img{
+  border:1px solid #D2D2D5;
+}
+
+.img img{
+  width: 100%;
+}
+
+.header_text{
+  font-size: 12px;
+}
+
+.testimonial{
+  border: 1px solid #D2D2D5;
+}
+
+.testimonial_text{
+  text-align: justify;
+}
+
+.fa-quote-left, .fa-quote-right{
+  color: #50505080 !important;
+  font-size: 30px !important;
+}
+
+.fa-quote-right{
+  float: right;
+}
+
+.fa-angle-left, .fa-angle-right{
+  align-self: center;
+  width: 20px;
+  height: 20px;
+  font-size: 6px !important;
+  color: #111111B2;
+  border: 1px solid #D2D2D5;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.articles{
+  background-image: url(./assets/vector3.png);
+}
+
+.inputRow{
+  position: relative;
+}
+
+.input_row button{
+  width: 18vh;
+  left: 52%;
+  position: absolute;
+}
+
+input{
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #D2D2D5;
+}
+
+#banner{
+  height: 350px;
+  border-top: 1px solid #D2D2D5;
+  border-bottom: 1px solid #D2D2D5;
+  background-image: url(./assets/rect.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#rectangle{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer_text{
+  font-size: 10px;
 }
