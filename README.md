@@ -1,5 +1,5 @@
-# Landing Page
+# Roots Landing Page
 
-The landing page is the first page the user is taken to when he/she clicks on the link. 
+This is the first page the user will be taken to when he clicks on the link to the platform. 
+On this landing page, user can register as a new learner or log into his profile as an already existing user. 
 
-From the landing page, the user can see the features of Roots, register as a new user or log in as an already existing user.
