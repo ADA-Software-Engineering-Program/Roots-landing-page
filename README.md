@@ -44,6 +44,6 @@ The community features will be moderated to ensure a safe and respectful environ
 
 ## Contributors
 - Ifechukwu Max-Oti
-- Leila Yusuf
+- Leila Yesufu
 - Adetutu Deborah Oluwasanmi
 
