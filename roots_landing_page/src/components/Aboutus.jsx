@@ -9,7 +9,7 @@ function Aboutus(){
           <div className="abouttext">
               <h1>Finding your way Home? Let’s guide you!</h1>
               <p>Immersed yourself from our collection of indigenous languages and your path home is guaranteed</p>
-              <button>Get Started</button>
+              <button className="get_started">Get Started</button>
           </div>
           <img src={circleimage} className="circle"></img>
         </div>

@@ -41,7 +41,7 @@ h1{
    
 }
 
-p{
+.abouttext p{
     width: 489px;
     height: 54px;
     text-align: left;
@@ -52,7 +52,7 @@ p{
     align-items: center;
 }
 
-button{
+.get_started{
     box-sizing: border-box;
     width: 240px;
     height: 60px;
