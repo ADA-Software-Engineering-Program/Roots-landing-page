@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDom from "react-dom";
 import "../accessibility.css";
 import media from "../assets/easy_learning.png";
 

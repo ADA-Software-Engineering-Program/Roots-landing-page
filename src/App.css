@@ -3,6 +3,7 @@
 }
 .App {
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #community{
@@ -11,10 +12,6 @@
 
 .community_text{
   text-align: justify;
-}
-
-.img{
-  border:1px solid #D2D2D5;
 }
 
 .img img{
@@ -37,8 +34,17 @@ h3.testimonials_text{
   text-align: center;
 }
 
+.carousel-control-prev, .carousel-control-next{
+  width: 8% !important;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-color: #96969980 !important;
+  border-radius: 50%;
+}
+
 .fa-quote-left, .fa-quote-right{
-  color: #505050 !important;
+  color: #e8e8ea !important;
   font-size: 30px !important;
 }
 
@@ -58,7 +64,7 @@ h3.testimonials_text{
 }
 
 .articles{
-  background-image: url(./assets/vector3.png);
+  background-image: url(./assets/about_us.png);
 }
 
 .inputRow{
@@ -66,7 +72,6 @@ h3.testimonials_text{
 }
 
 .input_row button{
-  width: 18vh;
   left: 52%;
   position: absolute;
 }
@@ -78,12 +83,11 @@ input{
 }
 
 #banner{
-  height: 350px;
-  border-top: 1px solid #D2D2D5;
-  border-bottom: 1px solid #D2D2D5;
-  background-image: url(./assets/rect.png);
+  height: 450px;
+  background-image: url(./assets/rectangle1.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
 }
 
 #rectangle{
@@ -91,6 +95,25 @@ input{
   flex-direction: column;
 }
 
+#footer{
+  background-color: #1D1D2F;
+}
+
+#footer .logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .footer_text{
   font-size: 10px;
+  color: #ffffff;
+}
+
+#footer .nav-link{
+  color: #fff;
+}
+
+#footer .footer_info p{
+  color: #fff;
 }

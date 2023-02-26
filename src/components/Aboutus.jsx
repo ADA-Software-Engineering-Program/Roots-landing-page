@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDom from "react-dom";
 import "../aboutus.css";
 import circleimage from "../assets/ellipse.png";
 function Aboutus(){
@@ -14,7 +13,7 @@ function Aboutus(){
           <img src={circleimage} className="circle"></img>
         </div>
         <div className="about2">
-          <img src={circleimage} className="circle2"></img>
+          <img src={circleimage} className="circle2" alt=""></img>
           <div className="abouttext2">
             <h3>Our Little Story</h3>
             <p className="story">Roots is an e-learning platform where you can learn the Igbo language from scratch.
