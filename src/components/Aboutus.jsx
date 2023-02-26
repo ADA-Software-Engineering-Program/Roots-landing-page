@@ -1,14 +1,13 @@
 import React from "react";
 import "../aboutus.css";
-import circleimage from "../images/circleimage.jpg";
-
+import circleimage from "../assets/ellipse.png";
 function Aboutus(){
     return(
       <section className="aboutus">
         <div className="about">
           <div className="abouttext">
               <h1>Finding your way Home? Let’s guide you!</h1>
-              <p>Immersed yourself from our collection of indigenous languages and your path home is guaranteed</p>
+              <p>Looking for a quick and fun way to learn Igbo language? If yes, then you’ve found your<span> Roots!</span></p>
               <button className="get_started">Get Started</button>
           </div>
           <img src={circleimage} className="circle"></img>
@@ -17,12 +16,12 @@ function Aboutus(){
           <img src={circleimage} className="circle2" alt=""></img>
           <div className="abouttext2">
             <h3>Our Little Story</h3>
-            <p className="story">Lorem ipsum dolor sit amet consectetur. Lacus cum sem faucibus
-            nsectetur neque. Volutpat venenatis leo vel tellus nulla. Pellentesque vitae ut se
-            d viverra metus sed leo. Tellus pretium tristique viverra blandit lectus. 
-            Dui sollicitudin dolor ullamcorper dignissim tortor placerat vulputate pharetra tortor
-            .
+            <p className="story">Roots is an e-learning platform where you can learn the Igbo language from scratch.
+             We provide you with resources that help simplify learning. Our courses are set up in such a way that even kids can learn conveniently,
+              with or without a guardian. 
+              Most of our users find that they already have a good grasp of the language as early as two months into the course and we have no doubts that you will too...
             </p>
+            <p className="readmore">Read More</p>
           </div>
           
         </div>

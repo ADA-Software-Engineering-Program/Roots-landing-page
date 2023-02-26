@@ -7,5 +7,16 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
+    background-color: #ffffff;
     color: #505050;
+}
+.navbar{
+    background-color: #ffffff;
+    
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    align-content: flex-end;
 }

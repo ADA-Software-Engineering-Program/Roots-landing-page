@@ -14,8 +14,8 @@ function App() {
     <div className="container-fluid">
      <Navbar></Navbar>
      <Aboutus></Aboutus>
-     <Lecturers></Lecturers>
      <Accessibility></Accessibility>
+     <Lecturers></Lecturers>
      <Community/>
      <Testimonial/>
      <Newsletter/>
