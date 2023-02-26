@@ -7,16 +7,24 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    background-color: #ffffff;
     color: #505050;
 }
+
 .navbar{
-    background-color: #ffffff;
-    
+    background-color: #fff !important;  
 }
-.navbar-collapse{
-    display: flex;
-    justify-content: flex-end;
-    align-self: flex-end;
-    align-content: flex-end;
+
+.nav-link{
+    color: #4CBF8F;
+
+}
+
+.navbar-nav button a{
+    text-decoration: none;
+    color:#505050;
+}
+
+.navbar-nav button a:hover{
+    background-color: #198754;
+    color: #fff;
 }

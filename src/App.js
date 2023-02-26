@@ -11,7 +11,7 @@ import Navbar from './components/Navbar';
  
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid m-0">
      <Navbar></Navbar>
      <Aboutus></Aboutus>
      <Accessibility></Accessibility>
