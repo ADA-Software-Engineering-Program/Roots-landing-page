@@ -1,0 +1,37 @@
+*{
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: #505050;
+}
+
+.accessibility{
+    margin: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.access{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+h3{
+    text-align: left;
+    width: 215px;
+    height: 36px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0F261D;
+}
+.access_text{
+    width: 422px;
+    height: 120px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1D1D2F;
+}

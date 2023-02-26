@@ -1,38 +1,126 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overflow-x: hidden;
+}
+
 .App {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#community{
+  height: 70vh;
+}
+
+.community_text{
+  text-align: justify;
+}
+
+.img img{
+  width: 100%;
+}
+
+.header_text{
+  font-size: 12px;
+}
+
+.testimonial{
+  border: 1px solid #D2D2D5;
+}
+
+.testimonial_text{
+  text-align: justify;
+}
+
+h3.testimonials_text{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.carousel-control-prev, .carousel-control-next{
+  width: 8% !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-color: #96969980 !important;
+  border-radius: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.fa-quote-left, .fa-quote-right{
+  color: #e8e8ea !important;
+  font-size: 30px !important;
+}
+
+.fa-quote-right{
+  float: right;
+}
+
+.fa-angle-left, .fa-angle-right{
+  align-self: center;
+  width: 20px;
+  height: 20px;
+  font-size: 6px !important;
+  color: #111111B2;
+  border: 1px solid #D2D2D5;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.articles{
+  background-image: url(./assets/about_us.png);
+}
+
+.inputRow{
+  position: relative;
+}
+
+.input_row button{
+  left: 52%;
+  position: absolute;
+}
+
+input{
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #D2D2D5;
+}
+
+#banner{
+  height: 450px;
+  background-image: url(./assets/rectangle1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#rectangle{
+  align-items: center;
   flex-direction: column;
+}
+
+#footer{
+  background-color: #1D1D2F;
+}
+
+#footer .logo{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer_text{
+  font-size: 10px;
+  color: #ffffff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#footer .nav-link{
+  color: #fff;
+}
+
+#footer .footer_info p{
+  color: #fff;
 }
