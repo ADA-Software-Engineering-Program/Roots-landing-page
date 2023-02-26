@@ -5,7 +5,7 @@ function Newsletter() {
     return (
         <div className="row p-5 articles justify-content-around">
 
-                <div className="col-7 col-lg-7 col-md-7 col-sm-12 mt-5 input_row">
+                <div className="col-12 col-lg-7 col-md-7 mt-5 input_row">
                     <h1 className="text-muted">Articles</h1>
                     <h3 className="text-muted">Subscribe to our newsletter</h3>
                     <p className="newsletter_text">Our channel will give you insight when a new lesson has been <br></br>uploaded as well as materials to help further your study</p>

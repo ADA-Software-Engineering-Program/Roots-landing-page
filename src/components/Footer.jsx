@@ -9,13 +9,13 @@ function Footer() {
                     <p className="m-0 footer_text">Privacy - Terms</p>
                 </div>
 
-                <div className="col-2 col-sm-2">
+                <div className="col-2 col-lg-2">
                     <p><a className="nav-link" href="#">Home</a></p>
                     <p><a className="nav-link" href="#">Courses</a></p>
                     <p><a className="nav-link" href="#">Lectures</a></p>
                 </div>
 
-                <div className="col-2 col-sm-2">
+                <div className="col-2 col-lg-2">
                     <p>Quick Links</p>
                     <p><a className="nav-link" href="#">About Us</a></p>
                     <p><a className="nav-link" href="#">Testimonial</a></p>
@@ -23,7 +23,7 @@ function Footer() {
                     <p><a className="nav-link" href="#">Privacy Policy</a></p>
                 </div>
 
-                <div className="col-2 col-sm-2">
+                <div className="col-2 col-lg-2">
                     <p>Company</p>
                     <p>Connect with us</p>
                     <p>124 Shomolu Lagos</p>
