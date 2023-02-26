@@ -7,7 +7,7 @@ function Aboutus(){
         <div className="about">
           <div className="abouttext">
               <h1>Finding your way Home? Let’s guide you!</h1>
-              <p>Looking for a quick and fun way to learn Igbo language? If yes, then you’ve found your<span> Roots!</span></p>
+              <p className="d-inline">Looking for a quick and fun way to learn Igbo language? If yes, then you’ve found your<strong> Roots!</strong></p>
               <button className="get_started">Get Started</button>
           </div>
           <img src={circleimage} className="circle"></img>
