@@ -1,11 +1,14 @@
 import React from "react";
 import ReactDom from "react-dom";
+import "../navbar.css";
+import logo from "../assets/logo.png";
+
 
 function Navbar(){
     return(
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Logo</a>
+      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <div className="container-fluid">
+        <a class="navbar-brand" href="#"><img src={logo} alt="imagelogo"></img></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -20,6 +23,7 @@ function Navbar(){
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li><hr class="dropdown-divider"/></li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
+
               </ul>
             </li>
             <li class="nav-item">
@@ -34,6 +38,9 @@ function Navbar(){
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Log in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign up</a>
             </li>
           </ul>
           {/* <form class="d-flex" role="search">

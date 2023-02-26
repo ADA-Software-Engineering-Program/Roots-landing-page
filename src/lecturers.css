@@ -2,6 +2,7 @@
     font-family: 'Open Sans';
     font-style: normal;
     color: #505050;
+    background: #F3FFFA;;
 }
 
 .lecturers{
@@ -9,11 +10,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #F3FFFA;
 }
 
 .media{
     width: 720px;
     height: 600px;
+    background-color: #F3FFFA;
 }
 
 .aboutlecturer{
@@ -21,6 +24,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
+    background-color: #F3FFFA;
    
 }
 
@@ -30,6 +34,7 @@ h3{
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
+    background-color: #F3FFFA;
 
 }
 
@@ -40,4 +45,10 @@ h3{
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
+    background-color: #F3FFFA;
+}
+
+button{
+    background: #4CBF8F;
+    border-radius: 5px;
 }
