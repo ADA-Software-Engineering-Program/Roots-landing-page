@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDom from "react-dom";
 import "../accessibility.css";
 import media from "../images/media.jpg";
 
@@ -11,7 +10,7 @@ function Accessibility(){
             <p className="access_text">Learning Igbo language is made easy by following our guidelines and choosing the basis to start from, we have resources right from basic to advance level...</p>
             <button className="btn btn-outline-dark">Get started</button>
         </div>
-        <img src={media}></img>
+        <img src={media} alt=""></img>
      </section>
         )};
 

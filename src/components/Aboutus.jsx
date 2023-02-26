@@ -1,7 +1,7 @@
 import React from "react";
-import ReactDom from "react-dom";
 import "../aboutus.css";
 import circleimage from "../images/circleimage.jpg";
+
 function Aboutus(){
     return(
       <section className="aboutus">
@@ -14,7 +14,7 @@ function Aboutus(){
           <img src={circleimage} className="circle"></img>
         </div>
         <div className="about2">
-          <img src={circleimage} className="circle2"></img>
+          <img src={circleimage} className="circle2" alt=""></img>
           <div className="abouttext2">
             <h3>Our Little Story</h3>
             <p className="story">Lorem ipsum dolor sit amet consectetur. Lacus cum sem faucibus
