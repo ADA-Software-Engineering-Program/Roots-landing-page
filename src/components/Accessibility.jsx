@@ -10,7 +10,7 @@ function Accessibility(){
          </div>
 
         <div className="col-5 col-lg-5 access">
-            <h3>Easy Learning for All</h3>
+            <h3 className="accesstext">Easy Learning for All</h3>
             <p className="access_text">Learning Igbo language is easy when you do it with Roots. Whether you’re just starting out or you already have a basic knowledge of the language...</p>
             <button className="btn btn-outline-dark">Get started</button>
         </div>
