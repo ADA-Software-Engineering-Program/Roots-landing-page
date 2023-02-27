@@ -1,12 +1,10 @@
 import './App.css';
-import Community from './components/Community';
 import Testimonial from './components/Testimonials';
 import Newsletter from './components/Newsletter';
 import Banner from './components/Banner';
 import Footer from './components/Footer'
 import Aboutus from './components/Aboutus';
-import Accessibility from './components/Accessibility';
-import Lecturers from './components/Lecturers';
+import Features from './components/Features';
 import Navbar from './components/Navbar';
  
 function App() {
@@ -14,9 +12,7 @@ function App() {
     <div className="container-fluid m-0">
      <Navbar></Navbar>
      <Aboutus></Aboutus>
-     <Accessibility></Accessibility>
-     <Lecturers></Lecturers>
-     <Community/>
+     <Features></Features>
      <Testimonial/>
      <Newsletter/>
      <Banner/>

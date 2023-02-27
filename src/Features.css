@@ -1,0 +1,43 @@
+*{
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: #505050;
+}
+
+.features{
+    margin: 2em;
+}
+
+.featuresHeading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.8;
+    color: #0F261D;
+}
+
+.featuresContent{
+    padding: 50px;
+}
+
+.featuresText {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #1D1D2F;
+}
+
+@media screen and (max-width: 900px) {
+
+    .featuresContent{
+        padding: 0;
+    }
+
+    .featuresHeading {
+        font-size: 24px;
+    }
+    
+    .featuresText {
+        font-size: 14px;
+    }
+
+}

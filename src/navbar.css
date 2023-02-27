@@ -10,13 +10,18 @@
     color: #505050;
 }
 
+.container {
+    margin: 0 6%;
+}
+
 .navbar{
     background-color: #fff !important;  
+    padding: 0;
 }
 
 .nav-link{
     color: #4CBF8F;
-
+    margin: 0 10px;
 }
 
 .navbar-nav button a{

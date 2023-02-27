@@ -1,96 +1,99 @@
 *{
+    box-sizing: border-box;
     font-family: 'Open Sans';
     font-style: normal;
     color: #505050;
 }
 
-.aboutus{
-    margin: 0.5em;
-    display: flex;
-    flex-direction: column;
-}
-.about2{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: flex-start;
-    padding: 4em;
-
-}   
-
 h1{
-    width: 591px;
-    height: 131px;
     text-align: left;
     font-weight: 700;
     font-size: 48px;
-    line-height: 65px;
-    display: flex;
+    line-height: 1.5;
     align-items: center;
     color: #0F261D;
-   
+}
+
+.aboutus{
+    padding-top: 3em;
+}
+
+.abouttext{
+    line-height: 2;
+}
+
+.heroPage {
+    margin-top: 80px;
+    padding: 0 8%;
 }
 
 .abouttext p{
-    width: 489px;
-    height: 54px;
     text-align: left;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    display: flex;
+    font-size: 16px;
     align-items: center;
     color: #1D1D2F;
+    margin-right: 100px;
+    line-height: 1.8;
 }
 
-.circle, .circle2{
-    width: 400px;
-    height: 400px;
-
+.heropageImg {
+    text-align: right;
 }
 
-.about2{
+/* Little story */
+
+.littleStory{
+    padding: 0 5%;
     background: url(./assets/vecto2.png);
-}
+}   
 
-.abouttext2{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: flex-start;
-    flex-wrap: nowrap;
-    margin-top: 5em;
-    background-color: #F3FFFA;
-}
+/* .littleStoryImg{
+    width: 400px;
+} */
 
-.abouttext2 h3{
-    width: 241px;
-    height: 48px;
+ h3 {
     font-weight: 600;
     font-size: 32px;
     line-height: 48px;
     color: #0F261D;
     background-color: #F3FFFA;
+}
+
+@media screen and (max-width: 900px) {
+
+    h1{
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+    h3 {
+      font-size: 28px;
+      text-align: center;
+    }
+
+    .aboutus{
+        padding-top: 1px;
+    }
+
+    .abouttext p{
+        margin-right: 0px;
+    }
+
+    .abouttext{
+        width: 100%;
+    }
     
+    .heropageImg,
+    .littleStoryImg
+     {
+        text-align: center;
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .heropageButton {
+        text-align: center;
+    }
 }
-
-.story{
-    width: 590px;
-    height: 147px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    color: #1D1D2F;
-    background-color: #F3FFFA;
-}
-
-.readmore{
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
-    color: #194030;
-    background-color: #F3FFFA;
-}
-
-
-
