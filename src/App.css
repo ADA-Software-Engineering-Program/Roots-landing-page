@@ -2,18 +2,24 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body{
   overflow-x: hidden;
 }
 
-.App {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
+#buttons{
+  background-color:#4CBF8F;
+  border: none;
+  padding: 0.5em;
 }
 
-#community{
+.App {
+  text-align: center;
+}
+
+.community{
   height: 70vh;
 }
 
@@ -29,16 +35,12 @@ body{
   font-size: 12px;
 }
 
-.testimonial{
-  border: 1px solid #D2D2D5;
-}
-
 .testimonial_text{
   text-align: justify;
 }
 
-h3.testimonials_text{
-  text-align: center;
+.controls{
+  height: 10vh;
 }
 
 .carousel-control-prev, .carousel-control-next{
@@ -70,26 +72,17 @@ h3.testimonials_text{
   cursor: pointer;
 }
 
-.articles{
+.newsletter{
   background-image: url(./assets/about_us.png);
 }
 
-.inputRow{
-  position: relative;
-}
-
-.input_row button{
-  left: 52%;
-  position: absolute;
-}
-
-input{
+input.form-control{
   border-radius: 5px;
-  outline: none;
-  border: 1px solid #D2D2D5;
+  border: none;
+  background-color: #E9E9ED;
 }
 
-#banner{
+.banner{
   height: 450px;
   background-image: url(./assets/rectangle1.png);
   background-repeat: no-repeat;
@@ -102,14 +95,14 @@ input{
   flex-direction: column;
 }
 
-#footer{
+.footer{
   background-color: #1D1D2F;
 }
 
-#footer .logo{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.footer .logo{
+  align-self: center;
+  display: inline;
+  vertical-align: middle;
 }
 
 .footer_text{
@@ -117,10 +110,36 @@ input{
   color: #ffffff;
 }
 
-#footer .nav-link{
+@media only screen and (max-width: 800px){
+  .footer .logo{
+    text-align: center;
+  }
+
+  .footer_text{
+    text-align: center;
+  }
+
+  .footer_link{
+    text-align: justify;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.footer_link p{
+  color: #fff;
+  padding: 0.5em;
+}
+
+.footer .nav-heading{
+  text-transform: uppercase;
+}
+
+.footer .nav-link{
   color: #fff;
 }
 
-#footer .footer_info p{
-  color: #fff;
+.footer .nav-link:hover{
+  color: #4CBF8F;
 }
