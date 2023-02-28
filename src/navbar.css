@@ -19,6 +19,10 @@
     padding: 0;
 }
 
+.navbar.fixed-top{
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2)
+}
+
 .nav-link{
     color: #4CBF8F;
     margin: 0 10px;
@@ -29,7 +33,12 @@
     color:#505050;
 }
 
+.navbar-nav button:hover{
+    background-color:#4CBF8F !important;
+    color: #fff;
+}
+
 .navbar-nav button a:hover{
-    background-color: #198754;
+    background-color:#4CBF8F;
     color: #fff;
 }

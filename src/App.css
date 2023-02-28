@@ -35,6 +35,10 @@ body{
   font-size: 12px;
 }
 
+.testimonial{
+  margin: 2em;
+}
+
 .testimonial_text{
   text-align: justify;
 }

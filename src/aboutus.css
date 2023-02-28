@@ -19,7 +19,11 @@ h1{
 }
 
 .abouttext{
+    min-height: fit-content;
     line-height: 2;
+    display: flex;
+    flex-direction: column;
+    align-content: end;
 }
 
 .heroPage {
@@ -27,13 +31,18 @@ h1{
     padding: 0 8%;
 }
 
+.littleStoryImg{
+    background-image: url(./assets/aboutUs2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .abouttext p{
-    text-align: left;
+    text-align: justify;
     font-weight: 400;
     font-size: 16px;
-    align-items: center;
+    align-self: center;
     color: #1D1D2F;
-    margin-right: 100px;
     line-height: 1.8;
 }
 
@@ -52,7 +61,7 @@ h1{
     width: 400px;
 } */
 
- h3 {
+.aboutHeading{
     font-weight: 600;
     font-size: 32px;
     line-height: 48px;
