@@ -17,20 +17,18 @@ function Features(){
         <div className="col-md-6 featuresContent mt-4">
             <h3 className="featuresHeading">Easy Learning for All</h3>
             <p className="featuresText">Learning Igbo language is easy when you do it with Roots. Whether you’re just starting out or you already have a basic knowledge of the language...</p>
-            <Link to="/signup">
-              <button className="btn btn-outline-dark">Get started</button>
-            </Link>        
+
+            <button className="btn btn-success" id="buttons">Get started</button>
         </div>
     </div>  
 
-     <div className="row mt-5">
+     <div className="row mt-5" id="lecturers">
 
         <div className="col-md-6 featuresContent mt-4">
             <h3 className="featuresHeading">Meet our Tutors</h3>
             <p className="featuresText">Igbo is such a rich language and our team of qualified tutors make the learning smooth and fun.  They are trained to provide the best learning experience for all types of learners, both young and old.</p>
-            <Link to="/signup">
-              <button className="btn btn-outline-dark">Explore</button>
-            </Link>     
+
+            <button className="btn btn-success" id="buttons">Explore</button>
         </div>
 
         <div className="col-md-6 featuresImg mt-4">
@@ -50,10 +48,9 @@ function Features(){
             <h3 className="featuresHeading">Extended Communities</h3>
             <p className="featuresText"> Connect with a learning community from all regions of the world <br></br>
                     Gain access to seek help from study partners.</p>
-            <Link to="/signup">
-              <button className="btn btn-outline-dark">Start your journey</button>
-            </Link>
-            
+
+            <button className="btn btn-success" id="buttons">Start your journey</button>
+
         </div>
     </div>  
 

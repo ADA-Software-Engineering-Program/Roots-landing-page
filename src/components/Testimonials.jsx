@@ -14,7 +14,7 @@ function Testimonials() {
                             <img alt="testimonials" src="https://images.unsplash.com/photo-1533781107041-b3b8441e1612?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGluZGlhbiUyMGdpcmx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" className="img-responsive w-100"></img>
                         </div>
 
-                        <div className="col-12 col-lg-5 d-inline-block p-3">
+                        <div className="col-12 col-lg-6 d-inline-block p-3">
                             
                             <p className="testimonial_text m-auto"> 
                             <i className="fa-solid fa-quote-left"></i><br></br>
@@ -30,7 +30,7 @@ function Testimonials() {
                             <img alt="testimonials" src="https://images.unsplash.com/photo-1513097633097-329a3a64e0d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXNpYW4lMjB3b21hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" className="img-responsive w-100"></img>
                         </div>
 
-                        <div className="col-12 col-lg-5 d-inline-block p-3">
+                        <div className="col-12 col-lg-6 d-inline-block p-3">
                             
                             <p className="testimonial_text m-auto"> 
                                 <i className="fa-solid fa-quote-left"></i><br></br>
