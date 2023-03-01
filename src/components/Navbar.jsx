@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../navbar.css";
 import logo from "../assets/logo.png";
 
@@ -6,7 +7,7 @@ import logo from "../assets/logo.png";
 function Navbar(){
     return( 
       <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-         <div className="container-fluid"> 
+         <div class="container-fluid"> 
         <a className="navbar-brand" href="#">
           <img src={logo} alt="imagelogo" />
         </a>
@@ -30,26 +31,28 @@ function Navbar(){
 
                 </ul>
           </li>
-
-          <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#about">About us</a>
-          </li>
-
-          <li className="nav-item">
-              <a className="nav-link" href="#lecturers">Lecturers</a>
-          </li>
+        
+            <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#about">About us</a>
+            </li>
+        
+            <li className="nav-item">
+                <a className="nav-link" href="#features">Features</a>
+            </li>
             
-          <li className="nav-item">
-              <a className="nav-link" href="#testimonial">Testimonies</a>
-          </li>
-          
-          <li className="nav-item">
-              <a className="nav-link" href="#">Log in</a>
-          </li>
+            <li className="nav-item">
+                <a className="nav-link" href="#testimonial">Testimonials</a>
+            </li>
 
-           <button className="btn btn-outline-success">
-             <a href="#">Sign up</a>
-            </button>
+            <li className="nav-item">
+                <Link className="nav-link" to="/signin">Login</Link>
+            </li>
+
+          <Link to="/signup">
+            <button className="btn btn-outline-success">
+                  Sign up
+              </button>
+          </Link> 
         </ul>
         </div>
         </div>  

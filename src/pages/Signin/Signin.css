@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Open Sans;
+  }
+
+  /* Form page */
+ 
+ .formpage {
+    margin-top: 10%;
+ }
+
+ .signintext {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+ }
+  
+.inputcontainer {
+    width: 100%;
+}
+  
+.icon {
+   position: absolute;
+    padding: 10px;
+    margin-top: 13px;
+    min-width: 40px;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=date]
+ {
+   width: 100%;
+   padding: 10px 45px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+}
+
+  input::placeholder{
+    padding-left: 10px;
+  }
+
+  .checktext {
+    font-size: 14px;
+  }
+
+  .createaccount {
+    font-size: 15px;
+  }
+
+  .loginlink{
+    margin-left: 5px;
+    font-weight: bold;
+  }
+
+ /* Signin socials */
+
+ .signinsocials{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+ }
+
+ .socialicon{
+    height: 26px;
+    width: 26px;
+    margin-right: 8px;
+ }
+
+ .sign {
+    font-size: 14px;
+ }
+
+
+ .submit {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #ffff;
+    background: #4CBF8F;
+    border: 0;
+    padding: 15px 30px;
+    font-size: 16px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    margin: 40px 5px 20px 5px;
+  }
+
+  /* Signin image */
+
+ .signinimg {
+    text-align: right;
+    padding-top: 50px;
+ }

@@ -1,11 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../aboutus.css"; 
 import circleimage from "../assets/ellipse.png";
 
 function Aboutus(){
     return(
       <section className="aboutus mt-5" id="about">
-      
       <div className="heroPage">
           <div className="row">
 
@@ -13,6 +13,7 @@ function Aboutus(){
                 <h1 className="mb-3">Finding your way Home? Let’s guide you!</h1>
                 <p className="mb-5">Looking for a quick and fun way to learn Igbo language? If yes, then you’ve found your<strong> Roots!</strong></p>
                 <div className="heropageButton">
+
                 <button className="btn btn-success d-block mt-3" id="buttons">Get Started</button>
                 </div>
             </div>
