@@ -2,7 +2,7 @@ import React from "react";
 
 function Testimonials() {
     return (
-        <section className="testimonial row shadow-sm bg-body rounded d-flex align-content-middle">
+        <section className="testimonial row shadow-sm bg-body rounded d-flex align-content-middle" id="testimonial">
             <div className="justify-content-center d-flex">
                 <h3 className="text-center">Testimonials</h3>
             </div>

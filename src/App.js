@@ -1,22 +1,21 @@
 import './App.css';
-import Testimonial from './components/Testimonials';
-import Newsletter from './components/Newsletter';
-import Banner from './components/Banner';
-import Footer from './components/Footer'
-import Aboutus from './components/Aboutus';
-import Features from './components/Features';
+import { Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
+import Landingpage from './pages/Landingpage/Landingpage';
+import Signup from './pages/Signup/Signup';
+import Signin from './pages/Signin/Signin';
  
 function App() {
   return (
     <div className="container-fluid m-0">
-     <Navbar></Navbar>
-     <Aboutus></Aboutus>
-     <Features></Features>
-     <Testimonial/>
-     <Newsletter/>
-     <Banner/>
-    <Footer/>
+          <Navbar />
+      <div>
+        <Routes>
+            <Route path="/" element={<Landingpage />} />
+            <Route path="/signin" element={<Signin />} />
+            <Route path="/signup" element={<Signup />} />
+          </Routes>
+        </div> 
     </div>
   );
 }
