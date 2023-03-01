@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../navbar.css";
 import logo from "../assets/logo.png";
 
@@ -30,26 +31,28 @@ function Navbar(){
 
                 </ul>
           </li>
-
-          <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">About us</a>
-          </li>
-
-          <li className="nav-item">
-              <a className="nav-link" href="#">Lecturers</a>
-          </li>
+        
+            <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#about">About us</a>
+            </li>
+        
+            <li className="nav-item">
+                <a className="nav-link" href="#features">Features</a>
+            </li>
             
-          <li className="nav-item">
-              <a className="nav-link" href="#">Testimonies</a>
-          </li>
-          
-          <li className="nav-item">
-              <a className="nav-link" href="#">Log in</a>
-          </li>
+            <li className="nav-item">
+                <a className="nav-link" href="#testimonial">Testimonials</a>
+            </li>
 
-           <button className="btn btn-outline-success">
-             <a href="#">Sign up</a>
-            </button>
+            <li className="nav-item">
+                <Link className="nav-link" to="/signin">Login</Link>
+            </li>
+
+          <Link to="/signup">
+            <button className="btn btn-outline-success">
+                  Sign up
+              </button>
+          </Link> 
         </ul>
         </div>
         </div>  

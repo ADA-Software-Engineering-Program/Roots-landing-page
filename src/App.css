@@ -114,6 +114,11 @@ input.form-control{
   color: #ffffff;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media only screen and (max-width: 800px){
   .footer .logo{
     text-align: center;
