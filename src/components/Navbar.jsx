@@ -6,7 +6,7 @@ import logo from "../assets/logo.png";
 function Navbar(){
     return( 
       <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-         <div class="container-fluid"> 
+         <div className="container-fluid"> 
         <a className="navbar-brand" href="#">
           <img src={logo} alt="imagelogo" />
         </a>
@@ -32,15 +32,15 @@ function Navbar(){
           </li>
 
           <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">About us</a>
+              <a className="nav-link active" aria-current="page" href="#about">About us</a>
           </li>
 
           <li className="nav-item">
-              <a className="nav-link" href="#">Lecturers</a>
+              <a className="nav-link" href="#lecturers">Lecturers</a>
           </li>
             
           <li className="nav-item">
-              <a className="nav-link" href="#">Testimonies</a>
+              <a className="nav-link" href="#testimonial">Testimonies</a>
           </li>
           
           <li className="nav-item">
