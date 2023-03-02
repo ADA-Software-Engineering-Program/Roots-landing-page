@@ -18,7 +18,10 @@ function Features(){
             <h3 className="featuresHeading">Easy Learning for All</h3>
             <p className="featuresText">Learning Igbo language is easy when you do it with Roots. Whether you’re just starting out or you already have a basic knowledge of the language...</p>
 
-            <button className="btn btn-success" id="buttons">Get started</button>
+            <Link to="/signup">
+                <button className="btn btn-success" id="buttons">Get started</button>
+            </Link>
+            
         </div>
     </div>  
 
@@ -47,10 +50,12 @@ function Features(){
         <div className="col-md-6 featuresContent mt-4">
             <h3 className="featuresHeading">Extended Communities</h3>
             <p className="featuresText"> Connect with a learning community from all regions of the world <br></br>
-                    Gain access to seek help from study partners.</p>
+                Gain access to seek help from study partners.
+            </p>
 
-            <button className="btn btn-success" id="buttons">Start your journey</button>
-
+            <Link to="/signup">
+                <button className="btn btn-success" id="buttons">Get started</button>
+            </Link>
         </div>
     </div>  
      </section>
