@@ -27,8 +27,6 @@ function Footer() {
                         <Link className="nav-link" to="/">About Us</Link>
                     </p>
                     <p><Link className="nav-link" to="/testimonials">Testimonial</Link></p>
-                    <p><a className="nav-link" href="#">FAQs</a></p>
-                    <p><a className="nav-link" href="#">Privacy Policy</a></p>
                 </div>
 
                 <div className="col-12 col-md-3 col-lg-2 footer_link">
