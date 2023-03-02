@@ -10,7 +10,7 @@ function App() {
     <div className="container-fluid m-0">
           <Navbar />
       <div>
-        <Routes>
+          <Routes>
             <Route path="/" element={<Landingpage />} />
             <Route path="/signin" element={<Signin />} />
             <Route path="/signup" element={<Signup />} />
