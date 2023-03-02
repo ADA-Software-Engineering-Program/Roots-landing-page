@@ -60,7 +60,7 @@ function Signin() {
                 <i class="fa-regular fa-lock-keyhole icon"></i>
                     <input
                       className="inputbox"
-                      type="text"
+                      type="password"
                       id="passwordInput"
                       placeholder="Minimum of 8 characters" 
                       required 
