@@ -16,25 +16,46 @@ These exercises will provide immediate feedback, helping learners to identify ar
 The platformm will offer comunity features such as forums and social media groups, where learners can connect with each other and with native speakers of the language. This will allow learners to practice their language skills and to ask questions about the language and culture. 
 The community features will be moderated to ensure a safe and respectful environment for all users. These features will allow learners to connect with other language learners and practice their language skills in a supportive environment.
 
+## Screenshots
+![](/src/images/RootsImg.PNG)
+![](/src/images/RootsImg0.PNG)
+![](/src/images/RootsImg1.PNG)
+![](/src/images/RootsImg2.PNG)
+![](/src/images/RootsImg3.PNG)
+![](/src/images/RootsImg4.PNG)
+
+## Technologies used
+- React
+- Firebase
+
 ## Setting up the repository
 - The React App was created with create-react-app
 
-## Process
+## Process of creating React App
 - Create React App - "npx create-react-app Roots"
 - Change directory to folder - "cd Roots"
 - Start the React App Development Server and Run "npm start"
 - Open http://localhost:3000 to view it in the browser
 - To deploy the React App after project build, run "npm run build"
 
-## Technologies used
-- React
-- BootStrap
-
-## Screenshots
-![](/src/images/RootsImg.PNG)
-![](/src/images/RootsImg0.PNG)
-![](/src/images/RootsImg1.PNG)
-![](/src/images/RootsImg2.PNG)
+## Process of setting up firebase
+- Go to firebase.google.com
+- Click on "Get started" and create a firebase project
+- Create a firebase project and enter a project name
+- Enable google analytics for your firebase project, click continue, and choose the default firebase account for google analytics configuration
+- Click on "create project"
+- On the firebase console, click on the web icon to get started
+- Register the app: Add the web app name and click on the option that allows firebase hosting for the app
+- Add firebase SDK
+- In the terminal, run "npm install firebase" to add firebase to the react project
+- On VsCode, create a firebase folder in the src file and create a "firebase-config.js" file in the folder
+- Copy and paste the code snippet on the firebase console to connect firebase to the project.
+- Install firebase CLI, and run "npm install -g firebase-tools"
+- Deploy to firebase hosting
+- Go to the main firebase console, click on build, then authentication, and click on get started.
+- Get started with firebase auth by adding your first sign-in method.
+- Click on the preffered sign-in method and enable it
+- Import the firebase auth method to the "firebase-config.js" file and export it on the form file on the React app.
 
 ## Links 
 - [Wireframe](https://www.figma.com/file/qpg55OACx3sX8gnn5dSZgk/Roots-Final-Designs?node-id=0%3A1&t=vtYKJoDRWu4PZvuK-0)
