@@ -11,7 +11,7 @@
   /* Form page */
  
  .formpage {
-    margin-top: 10%;
+    padding-top: 5%;
  }
 
  .signuptext {
@@ -98,4 +98,50 @@ input[type=date]
  .signupimg {
     text-align: right;
     padding-top: 50px;
+ }
+
+ @media screen and (max-width: 990px) {
+
+   .signuptext {
+      line-height: 1.5;
+      padding-top: 50px;
+     }
+
+   .signupimg {
+      text-align: center;
+      padding-top: 20px;
+   }
+ }
+
+ @media screen and (max-width: 750px) {
+
+   .formpage {
+      padding: 15% 0 10%;
+      margin-left: 0;
+      margin-right: 0;
+  }
+
+  .signuptext {
+   line-height: 1.5;
+   padding-top: 30px;
+  }
+
+  .signupsocials {
+    display: block;
+    text-align: center;
+  }
+
+  .signupsocial {
+   margin: 18px 0;
+ }
+
+  .sign {
+   font-size: 10px;
+  }
+
+  .signupimg {
+   text-align: center;
+   padding-top: 20px;
+}
+
  }

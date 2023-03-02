@@ -19,14 +19,14 @@ function Signup() {
           {/* Signup Socials */}
           <div className="signupsocials">
 
-              <div className="signupgoogle">
+              <div className="signupgoogle signupsocial">
                 <a href="#" >
                 <img src="https://img.icons8.com/ios/50/null/google-logo--v1.png" className="socialicon"/>
                 <span className="sign">Sign up with Google </span>
                 </a>
               </div>
 
-              <div className="signupfacebook">
+              <div className="signupfacebook signupsocial">
                 <a href="#" >
                 <img src="https://img.icons8.com/ios/50/null/facebook-f.png" className="socialicon"/>
                 <span className="sign">Sign up with Facebook </span>

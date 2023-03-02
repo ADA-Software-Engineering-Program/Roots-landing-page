@@ -13,8 +13,9 @@ function Aboutus(){
                 <h1 className="mb-3">Finding your way Home? Let’s guide you!</h1>
                 <p className="mb-5">Looking for a quick and fun way to learn Igbo language? If yes, then you’ve found your<strong> Roots!</strong></p>
                 <div className="heropageButton">
-
-                <button className="btn btn-success d-block mt-3" id="buttons">Get Started</button>
+                <Link to="/signup">
+                  <button className="btn btn-success d-block mt-3" id="buttons">Get Started</button>
+                </Link>
                 </div>
             </div>
             

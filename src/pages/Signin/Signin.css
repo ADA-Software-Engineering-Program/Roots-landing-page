@@ -99,3 +99,51 @@ input[type=date]
     text-align: right;
     padding-top: 50px;
  }
+
+ @media screen and (max-width: 990px) {
+
+   .signintext {
+      line-height: 1.5;
+      padding-top: 30px;
+     }
+ 
+   .signinimg {
+      text-align: center;
+      padding-top: 40px;
+   }
+ }
+ 
+ @media screen and (max-width: 750px) {
+ 
+   .formpage {
+      padding: 15% 0 10%;
+      margin-left: 0;
+      margin-right: 0;
+  }
+ 
+  .signintext {
+   line-height: 1.5;
+   padding-top: 30px;
+  }
+ 
+  .signinsocials {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+  }
+ 
+  .signinsocial {
+   margin: 18px 0;
+ }
+ 
+  .sign {
+   font-size: 10px;
+  }
+ 
+  .signinimg {
+   text-align: center;
+   padding-top: 40px;
+ }
+ 
+ }
+ 

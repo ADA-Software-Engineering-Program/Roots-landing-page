@@ -13,20 +13,20 @@ function Signin() {
       <div className="col-lg-6">  
         <div className="signinsection">
 
-          <p className="signintext text-center mb-5"> Welcome Back!</p>
+          <p className="signintext text-center mb-4"> Welcome Back!</p>
           
 
           {/* Signin Socials */}
           <div className="signinsocials">
 
-              <div className="signingoogle">
+              <div className="signingoogle signinsocial">
                 <a href="#" >
                 <img src="https://img.icons8.com/ios/50/null/google-logo--v1.png" className="socialicon"/>
                 <span className="sign">Login with Google </span>
                 </a>
               </div>
 
-              <div className="signinfacebook">
+              <div className="signinfacebook signinsocial">
                 <a href="#" >
                 <img src="https://img.icons8.com/ios/50/null/facebook-f.png" className="socialicon"/>
                 <span className="sign">Login with Facebook </span>
@@ -40,7 +40,7 @@ function Signin() {
           <div className="signinform">
             <form>
 
-              <div className="formgroup mt-4 mb-5">
+              <div className="formgroup mt-4 mb-4">
                 <label className="formtext">Email</label>
                 <div className="inputcontainer"> 
                 <i class="fa-regular fa-envelope icon"></i>
