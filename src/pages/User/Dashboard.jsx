@@ -3,9 +3,11 @@ import  "./Dashboard.css";
 
 function Dashboard () {
     return (
-        <div className="dashboard">
-            <h1 className="username mb-3">Hello, Jadesola</h1>
-            <p>Welcome to Roots. Explore our level of courses to get started.</p>
+        <div className="dashboard text-center">
+            <h1 className="username mb-3 text-center mb-5 mt-5">Hello👋🏾, Welcome to Roots!</h1>
+            <button className="startbtn ">
+                Start your learning journey 
+              </button>
         </div>
     )
 }

@@ -1,9 +1,29 @@
 
 .dashboard{
-    padding-top: 8em;
+    padding-top: 12%;
 }
 
 .username{
-    font-weight: 700;
-    font-size: 30px;
+    font-weight: bolder;
+    font-size: 40px;
 }
+
+.startbtn {
+    width: 100%;
+    max-width: 20%;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #ffff;
+    background: #4CBF8F;
+    border: 0;
+    padding: 15px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+  }
+
+  .startbtn:hover{
+    background: #ffff;
+    color: #4CBF8F;
+    border: 1px solid #4CBF8F;
+  }
