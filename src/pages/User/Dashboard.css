@@ -8,7 +8,7 @@
     font-size: 40px;
 }
 
-.submit {
+.startbtn {
     width: 100%;
     max-width: 20%;
     cursor: pointer;
@@ -22,7 +22,7 @@
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
   }
 
-  .submit:hover{
+  .startbtn:hover{
     background: #ffff;
     color: #4CBF8F;
     border: 1px solid #4CBF8F;
