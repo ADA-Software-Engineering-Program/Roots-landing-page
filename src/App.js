@@ -7,6 +7,7 @@ import Landingpage from './pages/Landingpage/Landingpage';
 import Signup from './pages/Signup/Signup';
 import Signin from './pages/Signin/Signin';
 import Dashboard from './pages/User/Dashboard';
+import UserDashboard from '../../src/pages/User/Dashboard'
 import PrivateRoutes from './components/Protected/Protected';
  
 
@@ -19,9 +20,9 @@ function App() {
             <Route path="/" element={<Landingpage />} />
             <Route path="/signin" element={<Signin />} />
             <Route path="/signup" element={<Signup />} />
-            <Route path="/User" element={<PrivateRoutes />}>
+            <Route path="/User" element={<PrivateRoutes />}/>
             <Route path="dashboard" element={<Dashboard />} />
-          </Route>
+            <Route path="/userdashboard" element={<UserDashboard />} />
           </Routes>
           <ToastContainer />
         </div> 
