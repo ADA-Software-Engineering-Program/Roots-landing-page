@@ -51,7 +51,7 @@ function Signup() {
         });
         toast.success("Registration Successful...");
         // navigate("/user/dashboard");
-        navigate('../../../../../src/pages/User/Dashboard')
+        navigate('/userdashboard')
       })
       .catch((error) => {
         toast.error(error.message);
@@ -65,7 +65,7 @@ function Signup() {
         // const user = result.user;
         toast.success("Login Successfully");
         // navigate("/user/dashboard");
-        navigate('../../../../../src/pages/User/Dashboard')
+        navigate('/userdashboard')
       })
       .catch((error) => {
         toast.error(error.message);
@@ -78,7 +78,7 @@ function Signup() {
       .then(() => {
         // console.log({ result });
         toast.success("Login Successfully");
-        navigate('../../../../../src/pages/User/Dashboard')
+        navigate('/userdashboard')
         // navigate("/user/dashboard");
       })
       .catch((error) => {
