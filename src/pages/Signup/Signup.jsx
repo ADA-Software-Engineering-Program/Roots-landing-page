@@ -2,9 +2,10 @@ import React from "react";
 import  "./Signup.css";
 import signupimage from '../Signup/signupimg.png';
 import { useState } from "react";
-import { auth, googleProvider, facebookProvider } from "../../firebase/firebaseConfig";
-import { createUserWithEmailAndPassword, signInWithPopup} from "firebase/auth";
-import { Link } from "react-router-dom";
+import { auth, createUserProfile } from "../../firebase/firebaseConfig";
+import { createUserWithEmailAndPassword, GoogleAuthProvider, FacebookAuthProvider, signInWithPopup } from "firebase/auth";
+import { Link, useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 
 
 function Signup() {
@@ -14,7 +15,7 @@ function Signup() {
   const [birthdate, setBirthdate] = useState("");
   const [password, setPassword] = useState("");
 
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const handleFullnameChange = (event) => {
     const value = event.target.value;
@@ -36,29 +37,53 @@ function Signup() {
     setPassword(value);
   };
 
-  const signUp = async () => {
-    try {
-      await createUserWithEmailAndPassword(auth, email, password);
-    } catch (err) {
-      console.error(err);
-    }
+  const signUp = (event) => {
+    event.preventDefault();
+
+    createUserWithEmailAndPassword(auth, email, password)
+      .then((result) => {
+        const { email, uid } = result.user;
+        createUserProfile({
+          fullname,
+          email,
+          birthdate,
+          uid,
+        });
+        toast.success("Registration Successful...");
+        navigate("/user/dashboard");
+      })
+      .catch((error) => {
+        toast.error(error.message);
+      });
   };
 
-  const signInWithGoogle = async () => {
-    try {
-      await signInWithPopup(auth, googleProvider);
-    } catch (err) {
-      console.error(err);
-    }
+  const provider = new GoogleAuthProvider();
+  const signInWithGoogle = () => {
+    signInWithPopup(auth, provider)
+      .then(() => {
+        // const user = result.user;
+        toast.success("Login Successfully");
+        navigate("/user/dashboard");
+      })
+      .catch((error) => {
+        toast.error(error.message);
+      });
   };
 
-  const signInWithFacebook = async () => {
-    try {
-      await signInWithPopup(auth, facebookProvider);
-    } catch (err) {
-      console.error(err);
-    }
+  const fprovider = new FacebookAuthProvider();
+  const signInWithFacebook = () => {
+    signInWithPopup(auth, fprovider)
+      .then(() => {
+        // console.log({ result });
+        toast.success("Login Successfully");
+        navigate("/user/dashboard");
+      })
+      .catch((error) => {
+        console.log(error);
+        toast.error(error.message);
+      });
   };
+
 
   return ( 
   //  Parent element
@@ -116,7 +141,7 @@ function Signup() {
               <div className="formgroup mt-3 mb-3">
                 <label className="formtext">Email</label>
                 <div className="inputcontainer"> 
-                <i class="fa-regular fa-envelope icon"></i>
+                <i className="fa-regular fa-envelope icon"></i>
                     <input
                       className="inputbox"
                       type="email"
@@ -132,7 +157,7 @@ function Signup() {
               <div className="formgroup mt-3 mb-3">
                 <label className="formtext">Date of Birth</label>
                 <div className="inputcontainer"> 
-                <i class="fa-solid fa-calendar-days icon"></i> 
+                <i className="fa-solid fa-calendar-days icon"></i> 
                     <input
                       className="inputbox"
                       type="date"
@@ -148,7 +173,7 @@ function Signup() {
               <div className="formgroup mt-3 mb-3">
                 <label className="formtext">Password</label>
                 <div className="inputcontainer"> 
-                <i class="fa-regular fa-lock-keyhole icon"></i>
+                <i className="fa-regular fa-lock-keyhole icon"></i>
                     <input
                       className="inputbox"
                       type="password"
@@ -161,12 +186,12 @@ function Signup() {
                 </div>
               </div>
 
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="check" />
-                <label class="form-check-label checktext" for="check">By signing up, I agree to Roots Terms of Service and Privacy Policy.</label>
+              <div className="form-check">
+                <input type="checkbox" className="form-check-input" id="check" />
+                <label className="form-check-label checktext">By signing up, I agree to Roots Terms of Service and Privacy Policy.</label>
               </div>
 
-              <input className="submit text-center" value="Create my free account" onClick={signUp}/>
+              <button className="submit text-center" onClick={signUp}>Create my free account</button>
 
               <h6 className="createaccount text-center mb-5">
                 Already have an account? 
