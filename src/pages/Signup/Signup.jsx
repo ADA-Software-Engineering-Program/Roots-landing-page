@@ -50,7 +50,8 @@ function Signup() {
           uid,
         });
         toast.success("Registration Successful...");
-        navigate("/user/dashboard");
+        // navigate("/user/dashboard");
+        navigate('../../../../../src/pages/User/Dashboard')
       })
       .catch((error) => {
         toast.error(error.message);
@@ -63,7 +64,8 @@ function Signup() {
       .then(() => {
         // const user = result.user;
         toast.success("Login Successfully");
-        navigate("/user/dashboard");
+        // navigate("/user/dashboard");
+        navigate('../../../../../src/pages/User/Dashboard')
       })
       .catch((error) => {
         toast.error(error.message);
@@ -76,7 +78,8 @@ function Signup() {
       .then(() => {
         // console.log({ result });
         toast.success("Login Successfully");
-        navigate("/user/dashboard");
+        navigate('../../../../../src/pages/User/Dashboard')
+        // navigate("/user/dashboard");
       })
       .catch((error) => {
         console.log(error);
