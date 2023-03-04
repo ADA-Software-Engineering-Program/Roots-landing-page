@@ -20,10 +20,9 @@ function App() {
             <Route path="/" element={<Landingpage />} />
             <Route path="/signin" element={<Signin />} />
             <Route path="/signup" element={<Signup />} />
-            <Route path="/User" element={<PrivateRoutes />}>
+            <Route path="/User" element={<PrivateRoutes />}/>
             <Route path="dashboard" element={<Dashboard />} />
             <Route path="/userdashboard" element={<UserDashboard />} />
-          </Route>
           </Routes>
           <ToastContainer />
         </div> 
