@@ -70,8 +70,8 @@ input[type=date]
  }
 
  .socialicon{
-    height: 26px;
-    width: 26px;
+    height: 30px;
+    width: 30px;
     margin-right: 8px;
  }
 
@@ -110,6 +110,7 @@ input[type=date]
    .signinimg {
       text-align: center;
       padding-top: 40px;
+      display: none;
    }
  }
  
@@ -143,6 +144,7 @@ input[type=date]
   .signinimg {
    text-align: center;
    padding-top: 40px;
+  display: none;
  }
  
  }
