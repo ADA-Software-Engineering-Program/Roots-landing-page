@@ -49,7 +49,7 @@ function Signup() {
           birthdate,
           uid,
         });
-        toast.success("Registration Successful...");
+        toast.success("Registration Successful");
         navigate("/user/dashboard");
       })
       .catch((error) => {
@@ -103,14 +103,14 @@ function Signup() {
 
               <div className="signupgoogle signupsocial">
                 <a href="#">
-                <img src="https://img.icons8.com/ios/50/null/google-logo--v1.png" className="socialicon"/>
+                <img src="https://img.icons8.com/fluency/48/null/google-logo.png" className="socialicon"/>
                 <span className="sign" onClick={signInWithGoogle}>Sign up with Google </span>
                 </a>
               </div>
 
               <div className="signupfacebook signupsocial">
                 <a href="#" >
-                <img src="https://img.icons8.com/ios/50/null/facebook-f.png" className="socialicon"/>
+                <img src="https://img.icons8.com/external-justicon-flat-justicon/64/null/external-facebook-social-media-justicon-flat-justicon.png" className="socialicon"/>
                 <span className="sign" onClick={signInWithFacebook}>Sign up with Facebook </span>
                 </a>
               </div>
