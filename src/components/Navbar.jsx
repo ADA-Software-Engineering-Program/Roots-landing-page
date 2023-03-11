@@ -45,15 +45,21 @@ function Navbar(){
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
                       <li className="nav-item">
-                        <a className="nav-link" aria-current="page" href="#about">About us</a>
+                        <Link className="nav-link" to='/#about'>
+                          About us
+                        </Link>
                       </li>
 
                       <li className="nav-item">
-                        <a className="nav-link" href="#features">Features</a>
+                      <Link className="nav-link" to='/#features'>
+                          Features
+                        </Link>
                       </li>
 
                       <li className="nav-item">
-                        <a className="nav-link" href="#testimonial">Testimonials</a>
+                      <Link className="nav-link" to='/#testimonial'>
+                          Testimonials
+                        </Link>
                       </li>
 
                       <li className="nav-item">

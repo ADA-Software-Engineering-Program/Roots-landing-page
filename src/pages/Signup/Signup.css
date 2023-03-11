@@ -59,6 +59,11 @@ input[type=date]
   .loginlink{
     margin-left: 5px;
     font-weight: bold;
+    color: #4CBF8F;
+  }
+
+  .loginlink:hover{
+    color: black;
   }
 
  /* Signup socials */
