@@ -2,6 +2,11 @@
 Roots is an online language learning platform that provides high-quality courses in Igbo language.
 The platform will offer video lessons, interactive exercises and community features to aid learners of all levels improve their language skills.
 
+We would love for you to try out our website and experience its full potential. Feel free to explore the different pages, provide feedback, and share your thoughts with us. We are always looking to improve and enhance our website to better serve our users.
+
+To access our website, click here: [ROOTS](https://roots-landing-page.vercel.app/).
+
+# Table of Contents
 - [Roots (Landing page)](#roots-landing-page)
 - [Features of Roots](#features-of-roots)
   * [Online courses ](#online-courses)
